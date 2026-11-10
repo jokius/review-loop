@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "review-loop",
+  "description": "Independent review loop and canon audits for Claude Code.",
+  "owner": {
+    "name": "jokius",
+    "url": "https://github.com/jokius"
+  },
+  "plugins": [
+    {
+      "name": "review-loop",
+      "description": "A reviewer that is not you runs 5 cycles per round until APPROVED; audit mode sweeps a codebase against a canon until N clean cycles.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

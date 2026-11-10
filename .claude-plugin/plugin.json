@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "review-loop",
+  "version": "1.0.0",
+  "description": "Independent review loop: a reviewer that is not you (a new Orca tab, another Claude session, or fresh subagents) runs 5 cycles per round until APPROVED or a 20-cycle stop. Project rules come from the project itself. Includes an audit mode that sweeps a codebase against a canon until N clean cycles.",
+  "author": {
+    "name": "jokius",
+    "url": "https://github.com/jokius"
+  },
+  "homepage": "https://github.com/jokius/review-loop",
+  "repository": "https://github.com/jokius/review-loop",
+  "license": "MIT",
+  "keywords": ["code-review", "review-loop", "audit", "multi-agent", "orca"],
+  "skills": ["./"]
+}
